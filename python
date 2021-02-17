@@ -21,6 +21,11 @@ def funcAnswer():
 def funcComment():
     qComment = ["That's interesting. ","I'd like to learn more about that. ","Interesting. ","Sounds fun. ","That sounds really boring. ", "I don't want to talk about that. ", "Cool. ","Uh huh. ","Hmmmm. ","Wow. "]
     return random.choice(qComment)
+
+def mood(moodLvl,moodType):
+  #insert code here to create mood
+  myMood = ""
+  return myMood
     
 botName = "Evil John Greenbot"
 
@@ -86,8 +91,3 @@ while answer != "BYE":
     
 # Bye entered
 print("> Nice talking with you!\nBye " + name + ".")
-
-def mood(moodLvl,moodType):
-  #insert code here to create mood
-  myMood = ""
-  return myMood
