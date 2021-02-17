@@ -86,3 +86,8 @@ while answer != "BYE":
     
 # Bye entered
 print("> Nice talking with you!\nBye " + name + ".")
+
+def mood(moodLvl,moodType):
+  #insert code here to create mood
+  myMood = ""
+  return myMood
